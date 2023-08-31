@@ -58,6 +58,7 @@ console.log(count); // => 10
 ### const 关键字
 
 ```javascript
+const 关键字用于声明一个只读常量，使用 const 声明的常量必须在声明时初始化，并且一旦声明，其值就不能再改变
 const numberOfColumns = 4;
 // TypeError: Assignment to constant...
 numberOfColumns = 8;
